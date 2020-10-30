@@ -1,37 +1,39 @@
-## Welcome to GitHub Pages
-hhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhh
-You can use the [editor on GitHub](https://github.com/Maofirst0720/test/edit/gh-pages/index.md) to maintain and preview the content for your website in Markdown files.
-
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
-
-### Markdown
-
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
-
-```markdown
-Syntax highlighted code block
-
-# Header 1
-## Header 2
-### Header 3
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/Maofirst0720/test/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title></title>
+	</head>
+	<script type="text/javascript"></script>
+	<script src="../js/jquery-3.2.1.js"></script>
+	<body>
+		
+		<img id="tup" src="../img/1.jpg" alt="" style="width: 100px; height: 100px;"/>
+		<input type="button" value="按钮" class="anniu"/>
+		
+		<a href="https://blog.csdn.net/a_sid/article/details/53485013?utm_medium=distribute.pc_aggpage_search_result.none-task-blog-2~all~first_rank_v2~rank_v25-1-53485013.nonecase&utm_term=jquery%E5%9B%BE%E7%89%87%E7%82%B9%E5%87%BB%E9%9A%90%E8%97%8F&spm=1000.2123.3001.4430">1</a>
+		<a href="https://www.cnblogs.com/think-in-java/p/5474740.html">2</a>
+	</body>
+	
+	<script>
+		$(function(){
+		
+			$(".anniu").click(function(){
+				
+				$("img").fadeToggle("slow");
+		
+				$('a').each(function () {
+					 $('body').append($(this).text());
+					 
+				});
+				
+			});
+		
+		
+			
+		});
+		
+		
+		
+	</script>
+</html>
